@@ -1,1 +1,2 @@
 # Scripting Essentials Repository
+This is the repository for Scripting Essentials. I am JJ Madigan. My github is Horizon-Storm. This is where the work I do for Scripting Essentials should all be stored.
