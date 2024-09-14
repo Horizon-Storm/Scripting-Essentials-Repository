@@ -17,10 +17,4 @@ public class Force : MonoBehaviour
     {
         Debug.Log("Collision Detected with " + collision.gameObject.name);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
