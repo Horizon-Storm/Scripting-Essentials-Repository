@@ -373,6 +373,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/Unitys Special Folder/2022.3.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unitys Special Folder/2022.3.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/FlipTransform.cs"
 "Assets/Scripts/SimpleCharacterController.cs"
 -langversion:9.0
 /deterministic
