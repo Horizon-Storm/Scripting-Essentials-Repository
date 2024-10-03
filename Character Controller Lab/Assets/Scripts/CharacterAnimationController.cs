@@ -32,19 +32,19 @@ public class CharacterAnimationController : MonoBehaviour
         }
         
         //Handle Jumping
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetButtonDown("Jump"))
         {
             animator.SetTrigger("Jump");
         }
         
         //Handle Wall Jump
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             animator.SetTrigger("WallJump");
         }
         
         //Handle Double Jump
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             animator.SetTrigger("DoubleJump");
         }
