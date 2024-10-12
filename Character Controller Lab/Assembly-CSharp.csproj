@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\NewCharacaterController.cs" />
     <Compile Include="Assets\Scripts\FlipTransform.cs" />
+    <Compile Include="Assets\Scripts\TriggerEventBehavior.cs" />
     <Compile Include="Assets\Scripts\SimpleCharacterController.cs" />
     <Compile Include="Assets\Scripts\CharacterAnimationController.cs" />
     <Reference Include="UnityEngine">
@@ -676,6 +677,9 @@
     <Reference Include="PsdPlugin">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
@@ -727,26 +731,26 @@
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
@@ -786,6 +790,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>D:\Git Repository\Scripting Essentials Repository\Character Controller Lab\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>

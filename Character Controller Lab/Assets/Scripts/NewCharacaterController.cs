@@ -74,7 +74,7 @@ public class NewCharacaterController : MonoBehaviour
         }
         
         //Jumping
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if ((Input.GetKeyDown(KeyCode.W) || (Input.GetButton("Jump"))) && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }

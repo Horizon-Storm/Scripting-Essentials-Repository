@@ -32,7 +32,7 @@ public class CharacterAnimationController : MonoBehaviour
         }
         
         //Handle Jumping
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W))
         {
             animator.SetTrigger("Jump");
         }
@@ -53,12 +53,6 @@ public class CharacterAnimationController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             animator.SetTrigger("Fall");
-        }
-        
-        //Handle Getting Hit
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            animator.SetTrigger("Hit");
         }
     }
 }
