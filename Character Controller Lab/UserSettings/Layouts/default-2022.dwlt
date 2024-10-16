@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 99
+  controlID: 44
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -541,7 +541,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000826f00008a7b0000ce700000107c0000b2720000b46f0000367200003a7300006c6d0000327300000a740000c4720000ca660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
