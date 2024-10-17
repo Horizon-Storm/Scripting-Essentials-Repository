@@ -10,7 +10,7 @@ public class TriggerEventBehavior : MonoBehaviour
     public UnityEvent triggerEvent;
     private Animator animator;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         //Trigger the Event, Play hit animation, and send debug message
         triggerEvent.Invoke();
