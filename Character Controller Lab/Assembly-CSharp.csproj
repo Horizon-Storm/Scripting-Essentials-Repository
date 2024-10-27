@@ -46,8 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\NewCharacaterController.cs" />
+    <Compile Include="Assets\Scripts\SimpleFloatData.cs" />
     <Compile Include="Assets\Scripts\FlipTransform.cs" />
+    <Compile Include="Assets\Scripts\HealthLossEvent.cs" />
     <Compile Include="Assets\Scripts\TriggerEventBehavior.cs" />
+    <Compile Include="Assets\Scripts\SimpleImageBehavior.cs" />
     <Compile Include="Assets\Scripts\SimpleCharacterController.cs" />
     <Compile Include="Assets\Scripts\CharacterAnimationController.cs" />
     <Reference Include="UnityEngine">
