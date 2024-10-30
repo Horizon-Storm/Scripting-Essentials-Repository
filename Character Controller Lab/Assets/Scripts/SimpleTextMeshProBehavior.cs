@@ -13,11 +13,15 @@ public class SimpleTextMeshProBehavior : MonoBehaviour
     private void Start()
     {
         textObj = GetComponent<TextMeshProUGUI>();
-        UpdateWithIntData();
     }
 
+    private void Update()
+    {
+        UpdateWithIntData();
+
+    }
     public void UpdateWithIntData()
     {
-        textObj.text = dataObj.value.ToString(CultureInfo.InvariantCulture);
+        textObj.text = "Score: " + dataObj.value.ToString(CultureInfo.InvariantCulture);
     }
 }

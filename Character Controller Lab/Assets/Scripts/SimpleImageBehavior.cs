@@ -6,16 +6,16 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class SimpleImageBehavior : MonoBehaviour
 {
-    private Image imageObj;
     public SimpleFloatData dataObj;
+    private Image _imageObj;
     
     private void Start()
     {
-        imageObj = GetComponent<Image>();
+        _imageObj = GetComponent<Image>();
     }
 
     public void UpdateWithFloatData()
     {
-        imageObj.fillAmount = dataObj.value;
+        _imageObj.fillAmount = dataObj.value;
     }
 }
