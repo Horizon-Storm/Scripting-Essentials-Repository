@@ -385,6 +385,7 @@
 "Assets/Scripts/SimpleImageBehavior.cs"
 "Assets/Scripts/SimpleIntBehavior.cs"
 "Assets/Scripts/SimpleTextMeshProBehavior.cs"
+"Assets/Scripts/SoundTrigger.cs"
 "Assets/Scripts/TriggerEventBehavior.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
