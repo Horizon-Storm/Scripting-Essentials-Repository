@@ -20,5 +20,7 @@ public class TriggerParticleEffect : MonoBehaviour
         {
             _particleSystem.Emit(particleAmmount); //Emit specified amount of particles
         }
+        //if(other.gameObject.tag == "enemy)
+        //{}
     }
 }
