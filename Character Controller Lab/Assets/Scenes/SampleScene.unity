@@ -7211,6 +7211,10 @@ PrefabInstance:
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 843697187}
+    - target: {fileID: 8022637447513820617, guid: fe4b597df9485ed41b1ade396d5806be, type: 3}
+      propertyPath: delayBetweenEmissions
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
