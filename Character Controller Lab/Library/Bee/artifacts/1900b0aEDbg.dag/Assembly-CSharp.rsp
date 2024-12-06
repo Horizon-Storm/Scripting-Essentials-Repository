@@ -390,6 +390,7 @@
 "Assets/Scripts/KnockBackBehavior.cs"
 "Assets/Scripts/MusicControl.cs"
 "Assets/Scripts/NewCharacaterController.cs"
+"Assets/Scripts/PatrolAI.cs"
 "Assets/Scripts/SimpleFloatData.cs"
 "Assets/Scripts/SimpleIdBehavior.cs"
 "Assets/Scripts/SimpleIDMatchBehavior.cs"

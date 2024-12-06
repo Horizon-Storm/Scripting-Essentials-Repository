@@ -13,11 +13,15 @@ public class SimpleNavMeshAgent : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false; //Disables automatic rotation for 2D 
     }
 
     // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(target.position);
+        if (target != null)
+        {
+            agent.SetDestination(target.position);
+        }
     }
 }
