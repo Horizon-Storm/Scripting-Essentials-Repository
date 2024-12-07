@@ -9555,6 +9555,8 @@ MonoBehaviour:
   waypoints:
   - {fileID: 407109358}
   - {fileID: 1659309895}
+  - {fileID: 407109358}
+  turnDelay: 7
 --- !u!1 &1110791575
 GameObject:
   m_ObjectHideFlags: 0
