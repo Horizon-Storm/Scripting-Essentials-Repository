@@ -20,7 +20,7 @@ public class PatrolAI : MonoBehaviour
         if (waypoints.Length > 0)
         {
             agent.SetDestination(waypoints[0].position);
-            
+            StartCoroutine(turnAround());
         }
         
     }
@@ -35,7 +35,7 @@ public class PatrolAI : MonoBehaviour
            // }
            // else
            // {
-                StartCoroutine(turnAround());
+                
           //  }
     }
     private IEnumerator turnAround()
@@ -50,6 +50,6 @@ public class PatrolAI : MonoBehaviour
         currentWaypointIndex = 0;
         agent.SetDestination(waypoints[currentWaypointIndex].position);
         
-        yield return new WaitForSeconds(turnDelay);
+        StartCoroutine(turnAround());
     }
 }
